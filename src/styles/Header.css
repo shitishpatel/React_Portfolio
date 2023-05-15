@@ -1,0 +1,52 @@
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    width: 100%;
+}
+    
+    
+    .nav_logo{
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    }
+
+    a{
+        color: black;
+        padding: 1rem;
+    }
+
+    .search input{
+        padding: 1rem;
+        border: 1px solid rgb(219, 215, 215);
+        border-radius: 10px;
+        
+
+    }
+
+    .icons{
+        font-size: 1.5rem;
+        position: relative;
+        right: 2.5rem;
+    }
+
+.search{
+    display: flex;
+    align-items: center;
+}

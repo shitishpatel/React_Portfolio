@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home1{
+    display: flex;
+    gap: 10rem;
+}
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 auto;
+    height: 120vh;
+    /* width: 90%; */
+}
+
+.home_left{
+    display: flex;
+    flex-direction: column;
+    margin-top: -9rem;
+    /* padding: 4rem; */
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+
+/* .home_left .heading h1{
+    font-size: 5rem;
+    font-weight:600;
+    line-height: 1;
+    letter-spacing: 5px;
+} */
+
+.g{
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    /* justify-content: center; */
+}
+
+
+.dash{
+    margin-top: 2rem;
+}
+
+.dash_icons{
+    font-size: 2rem;
+}
+
+
+.para{
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.home_btn{
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.dark_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem ;
+    background-color: rgb(102, 10, 189);
+    color: white;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.light_btn{
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.light_btn:hover{
+    padding: 1rem 1.5rem;
+    background-color: rgb(255, 253, 153);
+    border-radius: 1rem;
+}
+
+.home_bottom{
+    display: flex;
+    margin-top: 2rem;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 1rem; */
+}
+
+
+.home_icon{
+    font-size: 1.5rem;
+    background-color: rgb(227, 229, 231);
+    margin: 0 1rem;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-clip: padding-box;
+    padding: 1rem;
+}
+
+
+/* ----------Services--------------- */
+
+
+.service{
+    background-color: rgba(250, 212, 86, 0.849);
+}
+
+.service_content{
+   display: flex;
+   justify-content: space-between;
+   padding: 5rem 3rem;
+}
+
+
+.service_left{
+    width: 45%;
+    margin-top: -5.5rem;
+}
+
+.service_right{
+    width: 45%;
+}
+
+/* .service_left .heading{
+    font-size: 3rem;
+} */
+
+
+.border{
+    border: 1px solid black;
+}
+
+
+.box_content{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.content{
+    /* width: 80%; */
+    margin-left: 2rem;
+    display: flex;
+    align-items: end;
+    position: relative;
+    width: 100%;
+    
+}
+
+.box_content p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.h {
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+
+.h p{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.upper_arrow{
+    position: absolute;
+    right: 3rem;
+    bottom: -1rem;
+}
+
+.arrow{
+    background-color: rgba(59, 59, 255, 0.733);
+    color: aliceblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+
+
+
+/* --------------Skill------------------- */
+
+.skill{
+    background-color: rgba(250, 212, 86, 0.849);
+}
+
+.skill_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 3rem;
+ }
+
+ .skill_left{
+    width: 45%;
+    margin-top:-5.5rem ;
+}
+
+.skill_right{
+    width: 45%;
+}
+
+/* .skill_left .heading{
+    font-size: 3rem;
+} */
+
+.box_para{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.skill_right .box_content p{
+    font-size: 1rem;
+    width: 200px;
+}
+
+.h p{
+    font-weight: 200;
+}
+
+
+/* ---------------Skill---------- */
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 120%;
+    /* background-color: aqua; */
+
+}
+
+.skills h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+
+.skill_first{
+    display: flex;
+    margin: 2rem 0;
+    /* justify-content: space-between; */
+}
+
+.skill_second{
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 4rem; */
+}
+
+
+.skill_right .box_content{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill_right .h {
+    font-size: 1rem;
+    font-weight: 900;
+    
+}
+
+.skill_right .h p{
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+
+.skill_icon{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.visual ,.wireframe, .design ,.prototype ,.art, .research{
+    width: 100%;
+}
+
+
+.visual p ,.wireframe p, .design p,.prototype p,.art p, .research p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.skill_img img{
+    width: 100%;
+    height: 100%;
+    margin-top: -5rem;
+    /* position: absolute; */
+    /* text-align: right; */
+    margin-left: 7rem;
+    
+}
+
+
+/* ------------Project----- */
+
+
+.project{
+    background-color: rgba(250, 212, 86, 0.849);
+    margin-top: -5.2rem;
+    /* z-index: 2; */
+}
+
+.project_content{
+   display: flex;
+   justify-content: space-between;
+   padding: 5rem 3rem;
+}
+
+.project_left{
+    margin-top: -3.5rem;
+}
+
+/* .project_left .heading{
+    font-size: 3rem;
+} */
+
+.card_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .border{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.card_text h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.card_text p{
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
+
+.card_img{
+    margin-top: 2rem;
+}
+
+.project_center{
+    display: grid;
+    place-items: center;
+
+}
+
+.card_logo .skill_icon{
+    background-color: rgba(59, 59, 255, 0.733);
+    color: aliceblue;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+/* ----------client------------- */
+
+.client{
+    height: 100vh;
+}
+
+.client_upper{
+    display: flex;
+    margin-top: 5rem;
+    height: 30vh;
+    
+}
+
+.client_upper .heading{
+    margin-top: -5.5rem;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    width: 60%;
+   
+}
+
+.client_btn{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end
+;
+}
+
+.client_btn .skill_icon{
+    background-color: white;
+    color: rgb(112, 106, 106);
+    border: 1px solid rgb(112, 106, 106);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.client_lower{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.client_lower .left img ,.client_lower .right img{
+    height: 30rem;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.client_lower{
+    margin: 0 7rem;
+}
+
+.client_lower .client_para p{
+padding: 3rem;
+}
+
+.client_lower .client_para{
+    font-size: 1.5rem;
+}
+
+
+.client_lower .right{
+    margin-right: -7rem;
+    overflow-x: hidden;
+}
+
+.discuss{
+    background-color: rgba(250, 212, 86, 0.849);
+    margin-top: 5rem;
+    width: 100%;
+    height: 120vh;
+    /* z-index: 2; */
+}
+
+.discuss_content{
+   display: flex;
+   padding-top: 4rem;
+   justify-content: space-between;
+}
+
+.discuss_card{
+    width: 150%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.discuss_card .card_content{
+    /* width: 150%; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    /* flex-direction: column; */
+}
+
+.discuss_card .card_text p{
+    font-size: 1rem;
+    font-weight: 400;
+    }
+
+.discuss_card .card_text h3{
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+.discuss_card .skill_icon{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.discuss_left{
+    margin-top: -3.5rem;
+}
+
+footer{
+    margin-top: 8rem;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 1rem;
+   /* position: absolute;
+   bottom: 0; */
+  
+
+}
+
+
+.rotate{
+    transform: rotate(-25deg);
+    font-size: 1rem;
+    color: blue;
+    margin-bottom: 3.5rem;
+    margin-left: -2rem;
+    
+}
+
+.s_rotate{
+    transform: rotate(-25deg);
+    font-size: 1rem;
+    color: blue;
+    margin-bottom: 5.5rem;
+    margin-left: -3rem;
+    
+}
+
+.home_rotate{
+    transform: rotate(-25deg);
+    font-size: 1rem;
+    color: blue;
+    margin-bottom: 9rem;
+    margin-left: -3rem;
+    
+}
+
+/* .t_rotate{
+    transform: rotate(-25deg);
+    font-size: 1rem;
+    color: blue;
+    margin-bottom: 5.5rem;
+    margin-left: -3rem;
+    
+} */
